@@ -1,3 +1,5 @@
 # infinitewaterglitch 
 
-This is my private repo where I am going to be working on building out some server features, hooking up a database, and seeing if I can find my way around spark. Lets do it!
+The goal of this project is to create an app which can interface with and process data with Apache Spark 
+
+
