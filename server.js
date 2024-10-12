@@ -9,7 +9,7 @@ console.log(__dirname)
 const app = express();
 const router = express.Router()
 
-
+app.use(express.static(__dirname + '/client'));
 
 //app.use(express.static('/client'));
 app.use(express.urlencoded({ extended: true }));
