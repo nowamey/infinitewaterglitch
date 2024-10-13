@@ -1,5 +1,5 @@
 from flask import Flask
-import sparkwork as sparky
+#import sparkwork as sparky
 
 
 app = Flask(__name__)
@@ -9,7 +9,7 @@ def worker():
     return lst
 
 
-@app.route("/")
+@app.route("/open")
 def hello_world():
     return worker()
 

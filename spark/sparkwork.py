@@ -12,6 +12,5 @@ print(configdata)
 spark = SparkSession.builder.getOrCreate()
 
 
-textFile = spark.read.text("README.md")
+textFile = spark.read.csv("ex.csv",header = True)
 
-print(textFile)
