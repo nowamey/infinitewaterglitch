@@ -1,13 +1,18 @@
-.main{
-    display: flex;
-    flex-grow: 1;
-}
 .about{
     width: 300px;
-    border: 15px solid green;
+    border: 15px solid rgb(2, 116, 2);
     padding: 50px;
     margin: 20px;
+    text-align: center;
 }
 .projects{
     display: flex;
+}
+.content-wrapper{
+    justify-content: center;
+    display: flex;
+}
+.banner{
+    display:flex;
+    justify-content: center;
 }
